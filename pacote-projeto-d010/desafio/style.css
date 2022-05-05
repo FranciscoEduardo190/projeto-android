@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "bar" ;
+    src: url();
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --cor1: #2DE600;
+    --cor2: #179726;
+    --cor3:  #0CF269;
+    --cor4: #90FC0D;
+    --cor5: #DBF20C;
+    --font-padrao: "arial";
+    --font-bonita: 'bar';
+}
+body{
+     background-color: var(--cor4);
+
+}
+header{
+    background: rgb(34,195,41);
+background: linear-gradient(0deg, rgba(34,195,41,1) 0%, rgba(0,0,0,1) 100%);
+    font-family:'bar';
+    color: white;
+ text-align: center;
+}
+main{
+    background-color: white;
+    margin:auto;
+    max-width: 600px;
+    width: 100%;
+}

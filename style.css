@@ -1,0 +1,179 @@
+@media (min-width:780px) {
+@font-face {
+    font-family: "bar" ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    height: 100vh;
+    background-color: #13E00F;
+    font-size: 1.6rem;
+}
+header{
+    font-size: 1.6rem;
+    margin: auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(37,140,48,1) 100%);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+   font-family: bar;
+}
+header > p{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+header > h1{
+    text-align: center;
+    color: white;
+}
+header>nav{ 
+          font-weight: 200;
+          
+}
+
+header > nav > a  {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin: 10px 10px 10px 10px;
+}
+header > nav > a:hover{
+    background-color: #07c511;
+    font-weight: 900;
+    border-radius: 10%;    
+}
+header > nav > a:start{
+    background-color: #07c511;
+    font-weight: 900;
+    border-radius: 10%;    
+}
+main{
+    background-color: white;
+     margin-left: auto;
+     width: 100%;
+     max-width: 900px;
+     margin: auto;
+}
+main > picture{
+    width: max-content;
+}
+
+
+section  {
+    text-align: center;
+    width: 100%;
+     max-width: 900px;
+    margin: auto;
+}
+section > p {
+    text-align: left;
+}
+section > h2{
+    text-align: center;
+    font-family: bar, arial;
+    color:#006605;
+}
+section#video {
+background-color: #006605;
+     width: 100%;
+     max-width: 900px;
+}
+iframe{
+    max-width: 400px;
+    width: 100%;
+}
+}
+@media (min-width:350px) {
+    
+}
+@font-face {
+    font-family: "bar" ;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+}
+html{
+    font-size: 50%;
+}
+body{
+    height: 100vh;
+    background-color: #13E00F;
+    font-size: 1.6rem;
+}
+header{
+    font-size: 1.6rem;
+    margin: auto;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(37,140,48,1) 100%);
+   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.473);
+   font-family: bar;
+}
+header > p{
+    text-align: center;
+    color: white;
+    font-weight: 800;
+    font-family: 'Courier New', Courier, monospace;
+}
+header > h1{
+    text-align: center;
+    color: white;
+}
+header>nav{ 
+          font-weight: 200;
+          
+}
+
+header > nav > a  {
+    font-size: 1.8rem;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    margin: 10px 10px 10px 10px;
+}
+header > nav > a:hover{
+    background-color: #07c511;
+    font-weight: 900;
+    border-radius: 10%;    
+}
+header > nav > a:start{
+    background-color: #07c511;
+    font-weight: 900;
+    border-radius: 10%;    
+}
+main{
+    background-color: white;
+     margin-left: auto;
+     width: 100%;
+     max-width: 900px;
+     margin: auto;
+}
+main > picture{
+    width: max-content;
+}
+
+
+section  {
+    text-align: center;
+    width: 100%;
+     max-width: 900px;
+    margin: auto;
+}
+section > p {
+    text-align: left;
+}
+section > h2{
+    text-align: center;
+    font-family: bar, arial;
+    color:#006605;
+}
+section#video {
+background-color: #006605;
+     width: 100%;
+     max-width: 900px;
+}
+iframe{
+    max-width: 400px;
+    width: 100%;
+}
